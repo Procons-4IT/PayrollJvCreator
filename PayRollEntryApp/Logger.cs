@@ -12,32 +12,7 @@ namespace PayRollEntryApp
         public static FileInfo _FInfo;
         public static FileStream _sw;
 
-        //public static FileStream SWriter
-        //{
-        //    get
-        //    {
-        //        if (_sw == null)
-        //        {
-        //            _sw = CreateLoggingFile();
-        //            return _sw;
-        //        }
-        //        else
-        //            return _sw;
-        //    }
-        //}
         public static string fileName;
-        //public static FileInfo FInfo
-        //{
-        //    get
-        //    {
-        //        if (_FInfo == null)
-        //        {
-        //            return CreateLoggingFile();
-        //        }
-        //        else
-        //            return _FInfo;
-        //    }
-        //}
 
         public static void LogToFile(string message)
         {
